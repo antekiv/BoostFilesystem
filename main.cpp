@@ -6,7 +6,7 @@ int main(int argc, char* argv[])
 {
     if (argc < 2)
     {
-        std::cout << "Usage: tut_path\n";
+        std::cout << "Usage: tut_path_test\n";
         return 1;
     }
     std::cout << argv[1] << " " << file_size(argv[1]) << '\n';
